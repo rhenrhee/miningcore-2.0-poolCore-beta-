@@ -1,0 +1,7 @@
+extensions: designer.cs generated.cs
+extensions: .cs .cpp .h
+/* 
+Copyright 2019 Kolodkin Andrey Aleksandrovich (www.clubpool.com)
+Authors: Aleksandr Rhen (rhenrhee@gmail.com)
+
+*/

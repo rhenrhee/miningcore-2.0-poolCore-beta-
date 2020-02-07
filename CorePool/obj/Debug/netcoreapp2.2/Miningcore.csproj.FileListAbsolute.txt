@@ -1,0 +1,15 @@
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\coins.json
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\Miningcore.deps.json
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\Miningcore.runtimeconfig.json
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\Miningcore.runtimeconfig.dev.json
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\Miningcore.dll
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\Miningcore.pdb
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\WebSocketManager.Common.dll
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\WebSocketManager.dll
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\bin\Debug\netcoreapp2.2\ZeroMQ.dll
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.csprojAssemblyReference.cache
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.AssemblyInfoInputs.cache
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.AssemblyInfo.cs
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.csproj.CopyComplete
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.dll
+C:\Users\rhenrhee\Desktop\miningcore-master\miningcore-master\src\Miningcore\obj\Debug\netcoreapp2.2\Miningcore.pdb
