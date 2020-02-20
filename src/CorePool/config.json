@@ -81,7 +81,7 @@
 				"checkThreshold": 50
 			},
 			"ports": {
-				"3637": {
+				"3055": {
 					"listenAddress": "192.168.0.112",
 					"difficulty": 8,
 					"tls": false,
@@ -111,6 +111,7 @@
 					"factor": 2.0
 				}
 			}
-		},		
+		},
+		
     ]
 }

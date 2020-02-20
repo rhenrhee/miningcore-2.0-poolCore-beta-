@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SjfO1HJvwZLQ8j6FleL2NlUSx6gVxpo9AhElTrw8JKYk1z8U2PKMFu9RmEOrfjGzXRnvCHmMggazgeyk3LmQA==",
+  "dgSpecHash": "VMbX3FUhoJ52rTJIP+O0XorU8mbTErHc9sBGn37EXWB8GZD59xLGT9LGgpEKNcxdY3H3xTjtY5m1d2MYf9b2ag==",
   "success": true,
-  "projectFilePath": "C:\\server-mining-pool\\CorePool\\ClubPoolRelease.csproj",
+  "projectFilePath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rhenrhee\\.nuget\\packages\\aspnetcoreratelimit\\3.0.4\\aspnetcoreratelimit.3.0.4.nupkg.sha512",
     "C:\\Users\\rhenrhee\\.nuget\\packages\\autofac\\4.9.2\\autofac.4.9.2.nupkg.sha512",

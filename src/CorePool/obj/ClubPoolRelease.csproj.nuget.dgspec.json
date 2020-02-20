@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\server-mining-pool\\CorePool\\ClubPoolRelease.csproj": {}
+    "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj": {}
   },
   "projects": {
-    "C:\\server-mining-pool\\CorePool\\ClubPoolRelease.csproj": {
+    "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\server-mining-pool\\CorePool\\ClubPoolRelease.csproj",
+        "projectUniqueName": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
         "projectName": "ClubPoolRelease",
-        "projectPath": "C:\\server-mining-pool\\CorePool\\ClubPoolRelease.csproj",
+        "projectPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
         "packagesPath": "C:\\Users\\rhenrhee\\.nuget\\packages\\",
-        "outputPath": "C:\\server-mining-pool\\CorePool\\obj\\",
+        "outputPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
