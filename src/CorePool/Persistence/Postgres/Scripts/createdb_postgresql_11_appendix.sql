@@ -1,4 +1,4 @@
-SET ROLE corepool;
+SET ROLE clubpool;
 
 DROP TABLE shares;
 
