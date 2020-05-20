@@ -143,7 +143,7 @@ namespace CorePool.Mining
 
                 var byMiner = result.GroupBy(x => x.Miner).ToArray();
 
-                if(result.Length > 0)
+                if(result.Length >= 0)
                 {
                     // calculate pool stats
                     var windowActual = (result.Max(x => x.LastShare) - result.Min(x => x.FirstShare)).TotalSeconds;
