@@ -59,9 +59,9 @@ namespace CorePool.Mining
         private readonly IShareRepository shareRepo;
         private readonly CancellationTokenSource cts = new CancellationTokenSource();
         private readonly ConcurrentDictionary<string, IMiningPool> pools = new ConcurrentDictionary<string, IMiningPool>();
-        private readonly TimeSpan interval = TimeSpan.FromMinutes(5);
-        private const int HashrateCalculationWindow = 120; // seconds
-        private const int MinHashrateCalculationWindow = 30; // seconds
+        private readonly TimeSpan interval = TimeSpan.FromMinutes(1);
+        private const int HashrateCalculationWindow = 60; // seconds
+        private const int MinHashrateCalculationWindow = 15; // seconds
         private const double HashrateBoostFactor = 1.1d;
         private ClusterConfig clusterConfig;
         private const int RetryCount = 4;
