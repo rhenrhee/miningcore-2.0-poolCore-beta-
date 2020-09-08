@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj": {}
+    "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj": {
+    "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
+        "projectUniqueName": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj",
         "projectName": "ClubPoolRelease",
-        "projectPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
+        "projectPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj",
         "packagesPath": "C:\\Users\\rhenrhee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\obj\\",
+        "outputPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rhenrhee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,7 +26,6 @@
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
@@ -170,7 +167,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

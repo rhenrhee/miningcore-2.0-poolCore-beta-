@@ -6079,7 +6079,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.AspNetCore/2.1.1": {
-      "sha512": "QODFrAx+Bh3846rqKXj9/VqjPE3wsktqyEGJJEWNX92FEuOk3aKxkoUXWpyl22kpsPqqYZ0h6ycKtfP6LB/opA==",
+      "sha512": "kiGmzl9Cav34dF7AHVMoJxdJJQEeLB8KZGNwX1LjImG9iem5hGk4DkHpW7/m9Nh3DrL8IKSL3mqQo+IPqWfMRQ==",
       "type": "package",
       "path": "microsoft.applicationinsights.aspnetcore/2.1.1",
       "files": [
@@ -8646,11 +8646,12 @@
       ]
     },
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
-      "sha512": "5odUfxAjeNRU2UiBzka1vh02B/GS+dtnXrctdCsTHS7W3THPw8uKKMOkYCHbox2fH+GT5GNlZP4/3ttB8lF/yg==",
+      "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net451/Microsoft.Extensions.PlatformAbstractions.dll",
         "lib/net451/Microsoft.Extensions.PlatformAbstractions.xml",
         "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll",
@@ -10881,11 +10882,12 @@
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
-      "sha512": "iSrDxY9GacxY2Pp5+eOlLeEdjZfaHV54C+1pTIfpx4FsrSQnvWoINRTtstWrVBPhYCHL8HxDFpxz9O16ZoyUjw==",
+      "sha512": "eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
       "type": "package",
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11129,11 +11131,12 @@
       ]
     },
     "System.Diagnostics.StackTrace/4.3.0": {
-      "sha512": "n3CSwSjyXJ1fP1GhU3RmR1rPaiGEToJflPtT/YDUzdxHN0naconcWqZeVJmNE3U778zuSa+kRB5QZPOUUhKm+w==",
+      "sha512": "BiHg0vgtd35/DM9jvtaC1eKRpWZxr0gcQd643ABG7GnvSlf5pOkY2uyd42mMOJoOmKvnpNj0F4tuoS1pacTwYw==",
       "type": "package",
       "path": "system.diagnostics.stacktrace/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12636,7 +12639,7 @@
       ]
     },
     "System.Private.ServiceModel/4.5.3": {
-      "sha512": "Y4ouOY/aXIuS0rvrr2tHQ8cahsqJ8i/BGhcj2d+LZWdrIVFU3oLM78Lw/HH/yO5B2I7bX5fujuhGwixN/UzYVw==",
+      "sha512": "ancrQgJagx+yC4SZbuE+eShiEAUIF0E1d21TRSoy1C/rTwafAVcBr/fKibkq5TQzyy9uNil2tx2/iaUxsy0S9g==",
       "type": "package",
       "path": "system.private.servicemodel/4.5.3",
       "files": [
@@ -14388,7 +14391,7 @@
       ]
     },
     "System.ServiceModel.Primitives/4.5.3": {
-      "sha512": "02mANjSUdXtgQgd19+Ssn/9nRISCvH95G0Em6ltpF4USA1qV2SY4DjPTgyjKhbLNRlWNjZ/njfYd2S6rh5foTA==",
+      "sha512": "Wc9Hgg4Cmqi416zvEgq2sW1YYCGuhwWzspDclJWlFZqY6EGhFUPZU+kVpl5z9kAgrSOQP7/Uiik+PtSQtmq+5A==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.5.3",
       "files": [
@@ -15647,25 +15650,22 @@
   },
   "packageFolders": {
     "C:\\Users\\rhenrhee\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
+      "projectUniqueName": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj",
       "projectName": "ClubPoolRelease",
-      "projectPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\ClubPoolRelease.csproj",
+      "projectPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\ClubPoolRelease.csproj",
       "packagesPath": "C:\\Users\\rhenrhee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\sms-form\\PoolCore\\CorePool\\obj\\",
+      "outputPath": "C:\\Users\\rhenrhee\\Documents\\GitHub\\PoolCore\\src\\CorePool\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\rhenrhee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -15674,7 +15674,6 @@
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
@@ -15816,7 +15815,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200-preview-014883\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
