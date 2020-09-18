@@ -66,5 +66,5 @@ Create a configuration file <code>config.json</code> as described [here](https:/
 
 ```
 cd ../../build
-dotnet Miningcore.dll -c config.json
+dotnet Poolcore.dll -c config.json
 ```
