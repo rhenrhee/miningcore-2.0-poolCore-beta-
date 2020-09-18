@@ -12,7 +12,7 @@
 - POW (proof-of-work) & POS (proof-of-stake) support
 - Detailed per-pool logging to console & filesystem
 - Runs on Linux and Windows
-- Время обновления информации о активных и/или только что отличившихся miner/worker теперь обновляется ежеминутно.
+- Время обновления информации об активных и/или неактивных miner/worker теперь обновляется ежеминутно
 - DevDonation локализованы "под корень"
 
 ### Поддерживаемые монеты
