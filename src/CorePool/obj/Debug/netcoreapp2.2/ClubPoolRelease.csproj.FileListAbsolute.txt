@@ -60,3 +60,9 @@ C:\Users\rhenrhee\Documents\GitHub\sms-form\PoolCore\CorePool\obj\Debug\netcorea
 C:\Users\rhenrhee\Documents\GitHub\sms-form\PoolCore\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.dll
 C:\Users\rhenrhee\Documents\GitHub\sms-form\PoolCore\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.pdb
 C:\Users\rhenrhee\Documents\GitHub\sms-form\PoolCore\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.genruntimeconfig.cache
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.csprojAssemblyReference.cache
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.AssemblyInfoInputs.cache
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.AssemblyInfo.cs
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.csproj.CoreCompileInputs.cache
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.dll
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.pdb
