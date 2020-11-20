@@ -66,3 +66,14 @@ C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2
 C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.csproj.CoreCompileInputs.cache
 C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.dll
 C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.pdb
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\coins.json
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ClubPoolRelease.deps.json
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ClubPoolRelease.runtimeconfig.json
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ClubPoolRelease.runtimeconfig.dev.json
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ClubPoolRelease.dll
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ClubPoolRelease.pdb
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\WebSocketManager.Common.dll
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\WebSocketManager.dll
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\bin\Debug\netcoreapp2.2\ZeroMQ.dll
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.csproj.CopyComplete
+C:\Users\rhenrhee\Documents\GitHub\PoolCore\src\CorePool\obj\Debug\netcoreapp2.2\ClubPoolRelease.genruntimeconfig.cache

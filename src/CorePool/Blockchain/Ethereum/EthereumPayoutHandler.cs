@@ -217,7 +217,7 @@ namespace CorePool.Blockchain.Ethereum
                         }
                     }
 
-                    if(block.Status == BlockStatus.Pending && block.ConfirmationProgress > 1**)
+                    if(block.Status == BlockStatus.Pending && block.ConfirmationProgress > 0.75)
                     {
                         // we've lost this one
                         block.Status = BlockStatus.Orphaned;

@@ -19,7 +19,7 @@ using Contract = CorePool.Contracts.Contract;
 namespace CorePool.Payments
 {
     /// <summary>
-    /// Coin agnostic payment processor
+    /// Платёжный процессор, не зависящий от монет
     /// </summary>
     public class PayoutManager
     {

@@ -4,9 +4,10 @@ using System.Text.RegularExpressions;
 
 namespace CorePool.Blockchain.Ethereum
 {
+    //Ликбез здесь: https://ethereum.org/en/developers/docs/networks/).
     public class EthereumConstants
     {
-        public const ulong EpochLength = 30000;
+        public const ulong EpochLength = 60000; //Мерность эпохи увеличина в виду очередного форка ETC
         public const ulong CacheSizeForTesting = 1024;
         public const ulong DagSizeForTesting = 1024 * 32;
         public static BigInteger BigMaxValue = BigInteger.Pow(2, 256);
@@ -16,7 +17,7 @@ namespace CorePool.Blockchain.Ethereum
         public const decimal Wei = 1000000000000000000;
         public static BigInteger WeiBig = new BigInteger(1000000000000000000);
         public const string EthereumStratumVersion = "EthereumStratum/1.0.0";
-        public const decimal StaticTransactionFeeReserve = 0.0025m; // in ETH
+        public const decimal StaticTransactionFeeReserve = 0.0025m; // верно для ETH и, вероятно, верно для ETC
         public const string BlockTypeUncle = "uncle";
 
 #if !DEBUG
@@ -59,7 +60,7 @@ namespace CorePool.Blockchain.Ethereum
 
     public enum EthereumNetworkType
     {
-        Main = 1,
+        Main = 1, 
         Morden = 2,
         Ropsten = 3,
         Rinkeby = 4,
@@ -105,7 +106,6 @@ namespace CorePool.Blockchain.Ethereum
         public const string SendTx = "eth_sendTransaction";
         public const string UnlockAccount = "personal_unlockAccount";
         public const string Subscribe = "eth_subscribe";
-
         public const string ParityVersion = "parity_versionInfo";
         public const string ParityChain = "parity_chain";
         public const string ParitySubscribe = "parity_subscribe";
