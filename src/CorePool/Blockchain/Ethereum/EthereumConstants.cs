@@ -60,6 +60,7 @@ namespace CorePool.Blockchain.Ethereum
 
     public enum EthereumNetworkType
     {
+        //перечень публичных сетей
         Main = 1, 
         Morden = 2,
         Ropsten = 3,
@@ -72,6 +73,7 @@ namespace CorePool.Blockchain.Ethereum
 
     public enum ParityChainType
     {
+        //Публичные сети, описанные в рамках parity и Open Ethereum как следствие. 
         Foundation,
         Olympic,
         Frontier,
