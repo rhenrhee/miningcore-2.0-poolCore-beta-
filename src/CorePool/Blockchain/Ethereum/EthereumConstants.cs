@@ -67,7 +67,6 @@ namespace CorePool.Blockchain.Ethereum
         Rinkeby = 4,
         Kovan = 42,
         Galilei = 7919, // Callisto v3 Testnet
-
         Unknown = -1,
     }
 
@@ -92,24 +91,24 @@ namespace CorePool.Blockchain.Ethereum
 
     public static class EthCommands
     {
-        public const string GetWork = "eth_getWork";
-        public const string SubmitWork = "eth_submitWork";
+        public const string GetWork = "eth_getWork"; //geth core
+        public const string SubmitWork = "eth_submitWork"; //geth core
         public const string Sign = "eth_sign";
-        public const string GetNetVersion = "net_version";
-        public const string GetClientVersion = "web3_clientVersion";
-        public const string GetCoinbase = "eth_coinbase";
+        public const string GetNetVersion = "net_version"; //geth core
+        public const string GetClientVersion = "web3_clientVersion"; //geth core
+        public const string GetCoinbase = "eth_coinbase"; //geth core
         public const string GetAccounts = "eth_accounts";
-        public const string GetPeerCount = "net_peerCount";
-        public const string GetSyncState = "eth_syncing";
-        public const string GetBlockByNumber = "eth_getBlockByNumber";
-        public const string GetBlockByHash = "eth_getBlockByHash";
-        public const string GetUncleByBlockNumberAndIndex = "eth_getUncleByBlockNumberAndIndex";
-        public const string GetTxReceipt = "eth_getTransactionReceipt";
-        public const string SendTx = "eth_sendTransaction";
-        public const string UnlockAccount = "personal_unlockAccount";
-        public const string Subscribe = "eth_subscribe";
+        public const string GetPeerCount = "net_peerCount"; //geth core
+        public const string GetSyncState = "eth_syncing"; //geth core
+        public const string GetBlockByNumber = "eth_getBlockByNumber"; //geth core
+        public const string GetBlockByHash = "eth_getBlockByHash"; //geth core
+        public const string GetUncleByBlockNumberAndIndex = "eth_getUncleByBlockNumberAndIndex"; //geth core
+        public const string GetTxReceipt = "eth_getTransactionReceipt"; //geth core
+        public const string SendTx = "eth_sendTransaction"; //geth core
+        public const string UnlockAccount = "personal_unlockAccount"; //geth core
+        public const string Subscribe = "eth_subscribe"; //geth core
         public const string ParityVersion = "parity_versionInfo";
-        public const string ParityChain = "parity_chain";
+        public const string ParityChain = "eth_chainId";
         public const string ParitySubscribe = "parity_subscribe";
     }
 }
