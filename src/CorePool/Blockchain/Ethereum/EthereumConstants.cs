@@ -107,7 +107,7 @@ namespace CorePool.Blockchain.Ethereum
         public const string SendTx = "eth_sendTransaction"; //geth core
         public const string UnlockAccount = "personal_unlockAccount"; //geth core
         public const string Subscribe = "eth_subscribe"; //geth core
-        public const string ParityVersion = "parity_versionInfo";
+        public const string ParityVersion = "net_version";
         public const string ParityChain = "eth_chainId";
         public const string ParitySubscribe = "parity_subscribe";
     }

@@ -5,7 +5,7 @@
         "enableConsoleColors": true,
         "logFile": "core.log",
         "apiLogFile": "api.log",
-        "logBaseDirectory": "/path/to/logs",
+        "logBaseDirectory": "/logs",
         "perPoolLogFile": false
     },
     "banning": {
@@ -14,7 +14,7 @@
         "banOnInvalidShares": false
     },
     "notifications": {
-        "enabled": true,
+        "enabled": false,
         "email": {
             "host": "smtp-relay.gmail.com",
             "port": 587,
@@ -24,21 +24,21 @@
             "fromName": "pool support"
         },
         "admin": {
-            "enabled": true,
+            "enabled": false,
             "emailAddress": "user@example.com",
-            "notifyBlockFound": true,
+            "notifyBlockFound": false,
 			"ipWhitelist": ["192.168.0.112"]
         }
     },
-    "persistence": {
-        "postgres": {
-            "host": "127.0.0.1",
-            "port": 5432,
-            "user": "miningcore",
-            "password": "gfhjkm023",
-            "database": "miningcore"
-        }
-    },
+	"persistence": {
+		"postgres": {
+			"host": "127.0.0.1",
+			"port": 5432,
+			"user": "rhenrhee",
+			"password": "gfhjkm023",
+			"database": "rhenrhee"
+		}
+	},
     "paymentProcessing": {
         "enabled": true,
         "interval": 600,
@@ -58,60 +58,101 @@
                     "Limit": 5
                 }
             ],
-            "ipWhitelist": ["192.168.0.112"]
+            "ipWhitelist": ["145.239.67.23"]
         }
     },
     "pools": [
 		{
-			"id": "xrd1",
+			"id": "etc1",
 			"enabled": true,
-			"coin": "RavenDark",
-			"address": "RVmpzd9d1oTUpaJC93adZ9vrunCtBMwSH9",
+			"coin": "ethereum-classic",
+			"address": "0x9090130D47121F631C2f853901631B82812Fc7Dc",
 			"rewardRecipients": [{
-				"address": "RVmpzd9d1oTUpaJC93adZ9vrunCtBMwSH9",
-				"percentage": 1
-			}],
+                	"type": "op",
+               		"address": "0xe33eefb79b50d5c513a1ba8ac130da596a17ba46",
+                	"percentage": 1
+        		}],
 			"blockRefreshInterval": 1000,
-			"jobRebroadcastTimeout": 55,
+			"jobRebroadcastTimeout":55,
 			"clientConnectionTimeout": 600,
 			"banning": {
-				"enabled": true,
+				"enabled": false,
 				"time": 600,
 				"invalidPercent": 50,
 				"checkThreshold": 50
 			},
 			"ports": {
-				"3055": {
+				"3054": {
 					"listenAddress": "192.168.0.112",
-					"difficulty": 8,
-					"tls": false,
-					"tlsPfxFile": "/var/lib/certs/mycert.pfx",
+					"difficulty": 0.01,
+					"name": "GPU Mining",
 					"varDiff": {
-						"minDiff": 8,
-						"maxDiff": 5120,
+						"minDiff": 0.01,
+						"maxDiff": 10,
 						"targetTime": 15,
 						"retargetTime": 90,
-						"variancePercent": 30
+						"variancePercent": 30,
+						"maxDelta": 1
+					}
+				},
+				"3055": {
+					"listenAddress": "192.168.0.112",
+					"difficulty": 0.9,
+					"name": "High-End Multi GPU Mining",
+					"varDiff": {
+						"minDiff": 0.9,
+						"maxDiff": 15,
+						"targetTime": 15,
+						"retargetTime": 90,
+						"variancePercent": 30,
+						"maxDelta": 1
+					}
+				},
+				"3333": {
+					"listenAddress": "192.168.0.112",
+					"difficulty": 2,
+					"name": "Nicehash Mining varDiff",
+					"varDiff": {
+						"minDiff": 0.9,
+						"maxDiff": 30,
+						"targetTime": 5,
+						"retargetTime": 30,
+						"variancePercent": 50
+					}
+				},
+				"3334": {
+					"listenAddress": "192.168.0.112",
+					"difficulty": 2.002313,
+					"name": "Nicehash Mining fixDiff",
+					"varDiff": {
+						"minDiff": 0.9,
+						"maxDiff": 2.002313,
+						"targetTime": 15,
+						"retargetTime": 90,
+						"variancePercent": 30,
+						"maxDelta": 1
 					}
 				}
 			},
 			"daemons": [{
 				"host": "127.0.0.1",
-				"port": 8335,
-				"user": "user",
-				"password": "password",
-				"zmqBlockNotifySocket": "tcp://127.0.0.1:15101",
-				"portWs": 18545
+				"port": 8645,
+				"user": "ethuser",
+				"password": "Paq29aaRgM4cVK5s",
+				"portWs": 8646
 			}],
-			"paymentProcessing": {
-				"enabled": true,
-				"minimumPayment": 50,
-				"payoutScheme": "PPLNS",
-				"payoutSchemeConfig": {
-					"factor": 2.0
-				}
+				"paymentProcessing": {
+           			"enabled": true,
+            			"minimumPayment": 0.1,
+            			"minimumPaymentToPaymentId": 0.1,
+            			"payoutScheme": "PPLNS",
+            			"payoutSchemeConfig": {
+                		"factor": 1.0
+            },				
+				"coinbasePassword": "Paq29aaRgM4cVK5s",
+				"keepUncles": false,
+				"keepTransactionFees": false
 			}
-		},
-		
+		}
     ]
 }
